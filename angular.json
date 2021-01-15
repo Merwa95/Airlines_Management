@@ -28,7 +28,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/img/logo/log_reservation.png",
+              "src/assets/img/logo/favicon.png",
+              "src/assets",
+              "src/assets/img",
+              "src/assets/img/logo"
+              
             ],
             "styles": [
               "src/styles.scss"
