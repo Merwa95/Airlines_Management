@@ -1,13 +1,21 @@
 <div class="example-container" [class.example-is-mobile]="mobileQuery.matches" >
   <mat-toolbar color="accent" class="example-toolbar">
+    <div>
     <button mat-icon-button (click)="snav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
+  </div>
+  <div>
    <!-- <h1 class="example-app-name">Airlines-MZO</h1> --> 
    <a href="/" class="nav-link home"> 
      <img src="/assets/img/logo/logo.png" width="250px" height="60" title="home" class ="ng-star-inserted">
       
     </a>
+    </div>
+    <div class="spa">
+      <span>About-us</span>
+      <span>Notication</span>
+    </div>
   </mat-toolbar>
 
   <mat-sidenav-container class="example-sidenav-container"
