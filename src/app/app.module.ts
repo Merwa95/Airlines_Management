@@ -9,10 +9,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
+import { MapVolComponent } from './shared-modules/map-vol/map-vol.component';
+import { AddVolComponent } from './shared-modules/add-vol/add-vol.component';
+import { ModifyVolComponent } from './shared-modules/modify-vol/modify-vol.component';
+import { ArchitecteComponent } from './client-layout/architecte/architecte.component';
+import { MapReservationComponent } from './client-layout/architecte/map-reservation/map-reservation.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    MapVolComponent,
+    AddVolComponent,
+    ModifyVolComponent,
+    ArchitecteComponent,
+    MapReservationComponent
   ],
   imports: [
     BrowserModule,
