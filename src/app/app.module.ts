@@ -8,9 +8,11 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HomeLayoutComponent } from './layouts/home-layout/home-layout.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeLayoutComponent
   ],
   imports: [
     BrowserModule,
