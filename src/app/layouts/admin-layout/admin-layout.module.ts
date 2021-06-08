@@ -1,4 +1,21 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { AdminLayoutRoutingModule } from './admin-layout-routing.module';
+
+
+@NgModule({
+  declarations: [],
+  imports: [
+    CommonModule,
+    AdminLayoutRoutingModule
+  ]
+})
+export class AdminLayoutModule { }
+
+
+/**
+ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from 'src/app/app-routing.module';
@@ -26,3 +43,4 @@ import { ModifyLigneComponent } from './architecte/modify-ligne/modify-ligne.com
   ]
 })
 export class AdminLayoutModule { }
+ */
