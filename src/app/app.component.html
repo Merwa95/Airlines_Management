@@ -1,1 +1,59 @@
-<router-outlet></router-outlet>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:  #5a4996;">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+        <img class="ms-5" src="assets/img/logo/virli.png" width="50" height="40" alt="">
+        <span class="ms-1">irlines</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active me-5">
+            <a class="nav-link text-white" routerLink="/">
+              <em class="fas fa-home mr-1"></em><span>home</span>
+            </a>
+          </li>
+          <li class="nav-item active me-5">
+            <a class="nav-link text-white" routerLink="/about">
+              <em class="far fa-question-circle mr-1"></em>About
+            </a>
+          </li>
+          <li class="nav-item active me-5">
+            <a class="nav-link text-white" routerLink="/contact">
+              <em class="fas fa-envelope mr-1"></em>Contact
+            </a>
+          </li>
+          <li class="nav-item active me-5">
+            <a class="nav-link text-white" routerLink="/login">
+              <em class="fas fa-user mr-1"></em>Sign in
+            </a>
+          </li>
+          <li class="nav-item active ms-5">
+            <a class="nav-link text-white" href="https://github.com/Merwa95">
+              <em class="fab fa-github mr-1"></em>Github
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="container-fluid">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center text-white">&copy; 2021 AirlinesMangement_virlines by Merwa MANSSAR</p>
+      </div>
+    </div>
+  </div>
+</div>

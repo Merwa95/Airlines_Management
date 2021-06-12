@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
+
 
 @Component({
   selector: 'app-home-layout',
@@ -7,9 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeLayoutComponent implements OnInit {
 
+  
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
